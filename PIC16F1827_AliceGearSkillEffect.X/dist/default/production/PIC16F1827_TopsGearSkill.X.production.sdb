@@ -1,0 +1,133 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1827 ]
+[d frameptr 6 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"33 C:\GitHub\PIC-Lab\PIC16F1827_TopsGearSkill.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"131
+[v _pwmLED pwmLED `(v  1 e 1 0 ]
+"430 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1827.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"492
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"1153
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1215
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1707
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2862
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2914
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"7659
+[v _RA1 RA1 `VEb  1 e 0 @97 ]
+"7671
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"33 C:\GitHub\PIC-Lab\PIC16F1827_TopsGearSkill.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"59
+[v main@i_54 i `i  1 a 2 43 ]
+"56
+[v main@i i `i  1 a 2 41 ]
+"47
+[v main@ontime1 ontime1 `i  1 a 2 50 ]
+"48
+[v main@ima1 ima1 `i  1 a 2 48 ]
+"46
+[v main@zentime1 zentime1 `i  1 a 2 46 ]
+"50
+[v main@exw exw `uc  1 a 1 45 ]
+"49
+[v main@fugou1 fugou1 `uc  1 a 1 40 ]
+"128
+} 0
+"131
+[v _pwmLED pwmLED `(v  1 e 1 0 ]
+{
+"132
+[v pwmLED@i i `i  1 a 2 7 ]
+"133
+[v pwmLED@j j `i  1 a 2 5 ]
+"131
+[v pwmLED@duty duty `i  1 p 2 0 ]
+[v pwmLED@time time `i  1 p 2 2 ]
+"144
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S379 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S384 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S387 . 4 `l 1 i 4 0 `d 1 f 4 0 `S379 1 fAsBytes 4 0 `S384 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S387  1 a 4 20 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 14 ]
+[s S456 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S459 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S456 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S459  1 a 2 24 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 19 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 18 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 13 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 26 ]
+[v ___flge@ff2 ff2 `d  1 p 4 30 ]
+"19
+} 0
